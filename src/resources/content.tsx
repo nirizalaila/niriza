@@ -365,16 +365,25 @@ const about: About = {
         name: "Politeknik Negeri Malang",
         description: <>D4 Sistem Informasi Binis</>,
       },
+      {
+        name: "SMA Negeri 4 Malang",
+        description: <>MIPA</>,
+      },
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Technical skills",
     skills: [
       {
         title: "Figma",
         description: (
-          <></>
+          <>
+            Berpengalaman dalam merancang antarmuka berbasis user-centered design menggunakan Figma. 
+            Mampu membuat wireframe, desain high-fidelity, serta prototype interaktif. 
+            Digunakan dalam pengembangan proyek seperti Sugarwise dan Martac, dengan fokus pada user journey 
+            dan peningkatan pengalaman pengguna.
+          </>
         ),
         tags: [
           {
@@ -382,43 +391,65 @@ const about: About = {
             icon: "figma",
           },
         ],
-        images: [
-        ],
+        images: [],
       },
       {
         title: "Laravel",
         description: (
-          <></>
+          <>
+            Mampu mengembangkan aplikasi web menggunakan framework Laravel, termasuk implementasi CRUD, 
+            autentikasi, dan pengelolaan data. Berpengalaman menggunakan AdminLTE, DataTables, 
+            serta fitur import/export (Excel & PDF) dalam pengembangan proyek akademik.
+          </>
         ),
         tags: [
+          {
+            name: "Laravel",
+            icon: "laravel",
+          },
+          {
+            name: "PHP",
+            icon: "php",
+          },
         ],
-        images: [
-        ],
+        images: [],
       },
       {
         title: "Next.js",
         description: (
-          <></>
+          <>
+            Memiliki pemahaman dalam membangun antarmuka web modern menggunakan Next.js dan React. 
+            Berpengalaman dalam membuat komponen UI yang responsif, menyusun struktur halaman, 
+            serta melakukan deployment menggunakan platform seperti Vercel.
+          </>
         ),
         tags: [
           {
             name: "Next.js",
             icon: "nextjs",
           },
-  
+          {
+            name: "React",
+            icon: "react",
+          },
         ],
-        images: [
-        ],
+        images: [],
       },
       {
         title: "Photography",
         description: (
-          <></>
+          <>
+            Memiliki kemampuan dalam fotografi produk dan pembuatan konten visual untuk kebutuhan digital. 
+            Berpengalaman dalam pengambilan dan pengolahan gambar untuk mendukung branding serta promosi di media sosial.
+          </>
         ),
         tags: [
+          {
+            name: "Photography",
+            icon: "camera",
+          },
         ],
-        images: [
-        ],
+        images: [],
       },
     ],
   },
