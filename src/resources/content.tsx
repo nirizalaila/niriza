@@ -9,7 +9,7 @@ const person: Person = {
   avatar: "/images/avatarr.jpg",
   email: "nirizalailaumi1@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["", ""], // optional: Leave the array empty if you don't want to display languages
+  languages: ["Bahasa Indonesia", "English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -72,7 +72,7 @@ const home: Home = {
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "",
   },
   subline: (
     <>
@@ -342,16 +342,10 @@ const about: About = {
             height: 9,
           },
           {
-            src: "/images/bk3.png",
+            src: "/images/bk5.png",
             alt: "Portofolio BisnisKITA",
             width: 9,
             height: 9,
-          },
-          {
-            src: "/images/bk4.jpeg",
-            alt: "Portofolio BisnisKITA",
-            width: 9,
-            height: 9
           },
         ],
       },
