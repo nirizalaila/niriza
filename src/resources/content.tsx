@@ -300,7 +300,7 @@ const about: About = {
       },
       {
         company: "BisnisKITA Malang",
-        timeframe: "2024-Sekarang",
+        timeframe: "2024-2026",
         role: "Graphic Designer & Content Creator",
         achievements: [
           <>
@@ -409,22 +409,23 @@ const about: About = {
         images: [],
       },
       {
-        title: "Next.js",
+        title: "Flutter",
         description: (
           <>
-            Memiliki pemahaman dalam membangun antarmuka web modern menggunakan Next.js dan React. 
-            Berpengalaman dalam membuat komponen UI yang responsif, menyusun struktur halaman, 
-            serta melakukan deployment menggunakan platform seperti Vercel.
+            Memiliki pemahaman dalam pengembangan aplikasi mobile menggunakan Flutter. 
+            Mampu membangun antarmuka yang responsif dan konsisten dengan pendekatan UI/UX yang terstruktur. 
+            Berpengalaman dalam mengintegrasikan desain dari Figma ke dalam implementasi aplikasi, 
+            serta memahami dasar pengelolaan state dan struktur project Flutter.
           </>
         ),
         tags: [
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "Flutter",
+            icon: "flutter",
           },
           {
-            name: "React",
-            icon: "react",
+            name: "Dart",
+            icon: "dart",
           },
         ],
         images: [],
