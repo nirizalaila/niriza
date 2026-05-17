@@ -5,7 +5,7 @@ const person: Person = {
   firstName: "Niriza Lailaumi",
   lastName: "Hidayat",
   name: `Niriza Lailaumi Hidayat`,
-  role: "UI/UX Designer | Frontend Developer",
+  role: "Business Information Systems Student",
   avatar: "/images/avatarr.jpg",
   email: "nirizalailaumi1@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -68,7 +68,7 @@ const home: Home = {
         <strong className="ml-4">Niriza</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-          UI/UX & Frontend
+          IT Student
         </Text>
       </Row>
     ),
@@ -76,8 +76,8 @@ const home: Home = {
   },
   subline: (
     <>
-  <br/>Saya Niriza, mahasiswa Sistem Informasi Bisnis yang mendalami UI/UX design dan frontend development.
-  Saya berfokus pada rancangan tampilan yang tidak hanya menarik, tetapi juga mudah dipahami dan digunakan.
+  <br/>Saya Niriza, mahasiswa Sistem Informasi Bisnis yang tertarik pada pengembangan aplikasi dan desain antarmuka pengguna. 
+  Saya memiliki pengalaman dalam merancang serta mengembangkan aplikasi web, dan senang mempelajari hal baru untuk meningkatkan kemampuan di bidang teknologi informasi.
 </>
   ),
 };
@@ -103,8 +103,7 @@ const about: About = {
     title: "Tentang Saya",
     description: (
       <>
-       Mahasiswa Sistem Informasi Bisnis di Politeknik Negeri Malang dengan ketertarikan pada UI/UX design dan frontend development. 
-       Berfokus pada menciptakan pengalaman digital yang bermakna melalui perpaduan desain yang tepat dan implementasi antarmuka yang responsif.
+       Mahasiswa Sistem Informasi Bisnis dengan fokus pada pengembangan aplikasi dan desain antarmuka. Saya tertarik pada titik temu antara desain dan teknologi, yaitu menciptakan produk digital yang tidak hanya bekerja dengan baik, tetapi juga terasa nyaman dan menyenangkan untuk digunakan.
       </>
     ),
   },
@@ -156,7 +155,7 @@ const about: About = {
         role: "",
         achievements: [
           <>
-            Aktif mengikuti berbagai kompetisi UI/UX Design, mulai dari tingkat kampus hingga nasional, 
+            Aktif mengikuti berbagai kompetisi UI/UX Design, 
             dengan fokus pada pengembangan kemampuan dalam merancang solusi digital yang berpusat pada pengguna.
           </>,
         ],
@@ -184,10 +183,10 @@ const about: About = {
       {
         company: "Project SIPETO",
         timeframe: "2025",
-        role: "UI/UX Designer & Frontend Developer",
+        role: "System Designer & Frontend Developer",
         achievements: [
           <>
-            Berperan sebagai UI/UX Designer dengan merancang user flow, wireframe, hingga high-fidelity design
+            Berperan sebagai System Designer dengan merancang user flow,  wireframe, hingga high-fidelity design
             untuk memastikan pengalaman pengguna yang intuitif dan terstruktur dalam simulasi TOEIC.
           </>,
           <>
@@ -370,12 +369,25 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
+        title: "Version Control",
+        description: (
+        <>
+        Terbiasa menggunakan Git dan GitHub untuk manajemen versi dalam pengembangan proyek, termasuk branching sederhana dan kolaborasi dasar.
+        </>
+        ),
+        tags: [
+        { name: "Git", icon: "git" },
+        { name: "GitHub", icon: "github" }
+        ],
+        images: [],
+      },
+      {
         title: "Figma",
         description: (
           <>
             Berpengalaman dalam merancang antarmuka berbasis user-centered design menggunakan Figma. 
             Mampu membuat wireframe, desain high-fidelity, serta prototype interaktif. 
-            Digunakan dalam pengembangan proyek seperti Sugarwise dan Martac, dengan fokus pada user journey 
+            Digunakan dalam pengembangan proyek seperti Sugarwise dan SIPETO, dengan fokus pada user journey 
             dan peningkatan pengalaman pengguna.
           </>
         ),
@@ -405,6 +417,43 @@ const about: About = {
             name: "PHP",
             icon: "php",
           },
+        ],
+        images: [],
+      },
+      {
+        title: "System Analysis",
+        description: (
+          <>
+            Memiliki pemahaman dalam analisis kebutuhan sistem dan perancangan alur aplikasi. Mampu menerjemahkan kebutuhan pengguna menjadi flow sistem, user journey, serta struktur fitur yang terorganisir.
+          </>
+        ),
+        tags: [
+          { name: "System Analysis", 
+          icon: "diagram" }
+        ],
+        images: [],
+      },
+      {
+        title: "Database Design",
+        description: (
+        <>
+        Mampu merancang struktur database relasional sederhana menggunakan ERD, serta memahami konsep dasar normalisasi dan relasi antar tabel dalam pengembangan aplikasi web.
+        </>
+        ),
+        tags: [
+        { name: "MySQL", icon: "database" }
+        ],
+        images: [],
+      },
+      {
+        title: "API Integration",
+        description: (
+        <>
+        Memahami dasar integrasi frontend dengan backend melalui REST API, termasuk pengolahan request dan response dalam pengembangan aplikasi web.
+        </>
+        ),
+        tags: [
+        { name: "REST API", icon: "api" }
         ],
         images: [],
       },
